@@ -13,3 +13,4 @@ Ko nespejau:
 Sincerely
 Igor Talaiko
 +370 686 81223
+========================
