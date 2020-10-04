@@ -31,6 +31,8 @@ require __DIR__ . '../app/src/app.php';
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
 	<body>
+	<!-- Back to top button -->
+		<a id="to-top"></a>
 		<!-- Login -->
 		<section class="login default-width">
 			<div>
