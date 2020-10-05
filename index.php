@@ -32,8 +32,9 @@ require __DIR__ . '../app/src/app.php';
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
 	<body>
-	<!-- Back to top button -->
-		<a id="to-top" class='show'></a>
+		<!-- Back to top button -->
+		<button class="fas fa-chevron-up" onclick="topFunction()" id="to-top" title="Go to top">Top</button>
+		<!-- <a id="to-top" class='show'></a> -->
 		<!-- Login -->
 		<section class="login default-width">
 			<div>
