@@ -35,7 +35,6 @@ require __DIR__ . '../app/src/app.php';
 	<body>
 		<!-- Back to top button -->
 		<button class="fas fa-chevron-up" onclick="topFunction()" id="to-top" title="Go to top"></button>
-		<!-- <a id="to-top" class='show'></a> -->
 		<!-- Login -->
 		<section class="login default-width">
 			<div>
@@ -95,22 +94,22 @@ require __DIR__ . '../app/src/app.php';
 
 					<!-- burger -->
 					<div class="burger">
-						<span class='fas fa-bars' onclick="menuOn()"></span>
+						<span class='fas fa-bars' onclick="burgerMenuToggle()"></span>
 						<ul id="burger-menu">
-							<li id="men" class="mobmenu">
-								<a href="#home" onclick="menuOff()">Home</a>
+							<li id="burger-menu" class="mobmenu">
+								<a href="#home" onclick="burgerMenuToggle()">Home</a>
 							</li>
 							<li id="burger-menu" class="mobmenu">
-								<a href="#home" onclick="menuOff()">Mega Menu</a>
+								<a href="#home" onclick="burgerMenuToggle()">Mega Menu</a>
 							</li>
 							<li id="burger-menu" class="mobmenu">
-								<a href="#home" onclick="menuOff()">About</a>
+								<a href="#home" onclick="burgerMenuToggle()">About</a>
 							</li>
 							<li id="burger-menu" class="mobmenu">
-								<a href="#home" onclick="menuOff()">Blog</a>
+								<a href="#home" onclick="burgerMenuToggle()">Blog</a>
 							</li>
 							<li id="burger-menu" class="mobmenu">
-								<a href="#home" onclick="menuOff()">Contact</a>
+								<a href="#home" onclick="burgerMenuToggle()">Contact</a>
 							</li>
 						</ul>
 					</div>

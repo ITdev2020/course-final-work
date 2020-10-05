@@ -1,10 +1,11 @@
-function menuOn() {
-document.getElementById("burger-menu").style.display="block";
+function burgerMenuToggle() {
+	var burgerMenuState = document.getElementById('burger-menu');
+	if (burgerMenuState.style.display === 'none') {
+		burgerMenuState.style.display = 'block';
+	} else {
+		burgerMenuState.style.display = 'none';
+	}
 }
-function menuOff() {
-	document.getElementById("burger-menu").style.display="none";
-}
-
 
 
 // When the user scrolls down 400px from the top of the document, show the button
