@@ -7,7 +7,7 @@ function menuOff() {
 
 
 
-// When the user scrolls down 800px from the top of the document, show the button
+// When the user scrolls down 400px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {

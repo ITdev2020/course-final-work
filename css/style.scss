@@ -107,7 +107,7 @@ a {
 }
 
 
-// Back to top button
+// vvv Back to top button
 #to-top {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
@@ -124,7 +124,7 @@ a {
     font-size: 2em; /* Increase font size */
 }
 #to-top:hover {
-    background-color: $brand-green-color-hover; /* Add a dark-grey background on hover */
+    background-color: $brand-green-color-hover; /* Add a darker background on hover */
 }
 #to-top:active {
 	background-color: $brand-gray-text-color;
@@ -135,7 +135,7 @@ a {
 		margin: 30px;
 	}
 }
-// ^^^
+// ^^^ Back to top button
 
 
 // Login
