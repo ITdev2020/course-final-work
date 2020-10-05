@@ -108,8 +108,6 @@ a {
 
 
 // Back to top button
-
-
 #to-top {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
@@ -119,58 +117,24 @@ a {
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
     background-color: $brand-green-color; /* Set a background color */
-    // color: white; /* Text color */
+    color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
     font-size: 2em; /* Increase font size */
 }
-
-
-
-#to-top {
-	display: inline-block;
-	background-color: $brand-green-color;
-	width: 50px;
-	height: 50px;
-	text-align: center;
-	border-radius: 4px;
-	position: fixed;
-	bottom: 30px;
-	right: 30px;
-	transition: background-color .3s,
-	  opacity .5s, visibility .5s;
-	opacity: 0;
-	visibility: hidden;
-	z-index: 1000;
-  }
-  .fa-chevron-up::after {
-	// content: "\f077";
-	font-family: "FontAwesome";
-	font-weight: normal;
-	font-style: normal;
-	font-size: 2em;
-	line-height: 50px;
-	color: #fff;
-  }
-  #to-top:hover {
-	cursor: pointer;
-	background-color: $brand-green-color-hover;
-  }
-  #to-top:active {
+#to-top:hover {
+    background-color: $brand-green-color-hover; /* Add a dark-grey background on hover */
+}
+#to-top:active {
 	background-color: $brand-gray-text-color;
-  }
-  #to-top.show {
-	opacity: 1;
-	visibility: visible;
-  }
+}
 
-  @media (min-width: 500px) {
+@media (min-width: 500px) {
 	#to-top {
-	  margin: 30px;
+		margin: 30px;
 	}
-  }
-
+}
 // ^^^
 
 

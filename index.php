@@ -12,6 +12,7 @@ require __DIR__ . '../app/src/app.php';
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Healthy lifestyle</title>
+		<link rel="shortcut icon" href="assets/favicon.ico">
 		<!-- Link Google Font Roboto-->
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300;400&display=swap" rel="stylesheet" />
 		<!-- Link Google Font PT Sans regular-->
@@ -33,7 +34,7 @@ require __DIR__ . '../app/src/app.php';
 	</head>
 	<body>
 		<!-- Back to top button -->
-		<button class="fas fa-chevron-up" onclick="topFunction()" id="to-top" title="Go to top">Top</button>
+		<button class="fas fa-chevron-up" onclick="topFunction()" id="to-top" title="Go to top"></button>
 		<!-- <a id="to-top" class='show'></a> -->
 		<!-- Login -->
 		<section class="login default-width">
@@ -95,20 +96,20 @@ require __DIR__ . '../app/src/app.php';
 					<!-- burger -->
 					<div class="burger">
 						<span class='fas fa-bars' onclick="menuOn()"></span>
-						<ul id="men">
+						<ul id="burger-menu">
 							<li id="men" class="mobmenu">
 								<a href="#home" onclick="menuOff()">Home</a>
 							</li>
-							<li id="men" class="mobmenu">
+							<li id="burger-menu" class="mobmenu">
 								<a href="#home" onclick="menuOff()">Mega Menu</a>
 							</li>
-							<li id="men" class="mobmenu">
+							<li id="burger-menu" class="mobmenu">
 								<a href="#home" onclick="menuOff()">About</a>
 							</li>
-							<li id="men" class="mobmenu">
+							<li id="burger-menu" class="mobmenu">
 								<a href="#home" onclick="menuOff()">Blog</a>
 							</li>
-							<li id="men" class="mobmenu">
+							<li id="burger-menu" class="mobmenu">
 								<a href="#home" onclick="menuOff()">Contact</a>
 							</li>
 						</ul>

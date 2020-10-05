@@ -1,8 +1,8 @@
 function menuOn() {
-document.getElementById("men").style.display="block";
+document.getElementById("burger-menu").style.display="block";
 }
 function menuOff() {
-	document.getElementById("men").style.display="none";
+	document.getElementById("burger-menu").style.display="none";
 }
 
 
@@ -12,8 +12,8 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
 		//Get the button:
-		mybutton = document.getElementById('myBtn');
-	if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+		mybutton = document.getElementById('to-top');
+	if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
 		mybutton.style.display = "block";
     } else {
         mybutton.style.display = "none";
