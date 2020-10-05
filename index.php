@@ -23,6 +23,7 @@ require __DIR__ . '../app/src/app.php';
 			integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
 			crossorigin="anonymous"
 		/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 		<!-- tiny-slider -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
@@ -32,7 +33,7 @@ require __DIR__ . '../app/src/app.php';
 	</head>
 	<body>
 	<!-- Back to top button -->
-		<a id="to-top"></a>
+		<a id="to-top" class='show'></a>
 		<!-- Login -->
 		<section class="login default-width">
 			<div>

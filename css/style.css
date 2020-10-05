@@ -121,8 +121,7 @@ a {
   z-index: 1000;
 }
 
-#to-top::after {
-  content: "\f077";
+.fa-chevron-up::after {
   font-family: FontAwesome;
   font-weight: normal;
   font-style: normal;
