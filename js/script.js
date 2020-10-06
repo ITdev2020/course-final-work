@@ -12,9 +12,11 @@ function burgerMenuToggle() {
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-		//Get the button:
-		mybutton = document.getElementById('to-top');
-	if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+	//Get the button:
+	mybutton = document.getElementById('to-top');
+	// if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+	// if (document.body.scrollTop > 400) { // For Safari
+	if (document.documentElement.scrollTop > 400) { // For Chrome, Firefox, IE and Opera
 		mybutton.style.display = "block";
     } else {
         mybutton.style.display = "none";

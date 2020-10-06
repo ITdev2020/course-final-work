@@ -34,7 +34,9 @@ require __DIR__ . '../app/src/app.php';
 	</head>
 	<body>
 		<!-- Back to top button -->
-		<button class="fas fa-chevron-up" onclick="topFunction()" id="to-top" title="Go to top"></button>
+		<!-- <button class="fas fa-chevron-up" onclick="topFunction()" id="to-top" title="Go to top"></button> -->
+		<!-- Go to home button -->
+		<button class="fas fa-chevron-up" onclick="document.location='#home'" id="to-top" title="Go to home"></button>
 		<!-- Login -->
 		<section class="login default-width">
 			<div>
